@@ -1,0 +1,32 @@
+{
+  "name": "your_module_name",
+  "version": "0.0.1",
+  "description": "put your descriotion here",
+  "author": "write yourself",
+  "contributors": "write someone else :)",
+  "homepage": "https://github.com/your_name/your_module_name/",
+  "bugs": "https://github.com/your_name/your_module_name/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your_name/your_module_name.git"
+  },
+ "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "denodeify": "^1.2.1",
+    "es6-promise": "^3.0.2",
+    "es6-promisify": "^3.0.0"
+},
+  "devDependencies": {
+    "babel-eslint": "^4.0.5",
+    "del": "^2.1.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-eslint": "^1.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
